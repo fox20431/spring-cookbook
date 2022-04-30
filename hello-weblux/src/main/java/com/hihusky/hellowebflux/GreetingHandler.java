@@ -11,6 +11,6 @@ import reactor.core.publisher.Mono;
 public class GreetingHandler {
     public Mono<ServerResponse> hello(ServerRequest request) {
         return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON)
-                .body(BodyInserters.fromValue(new Greeting("Hello, Spring!")));
+                .body(BodyInserters.fromValue(new Greeting("Hello, Webflux!")));
     }
 }

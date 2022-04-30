@@ -10,9 +10,8 @@ repositories {
 }
 
 dependencies {
-    String springVersion = '5.3.19'
-
     // spring framework
+    String springVersion = '5.3.19'
     implementation "org.springframework:spring-core:$springVersion"
     implementation "org.springframework:spring-beans:$springVersion"
     implementation "org.springframework:spring-context:$springVersion"
@@ -31,6 +30,9 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.2.11'
 
     implementation 'org.aspectj:aspectjweaver:1.9.9.1'
+
+    // reactor-netty
+    implementation 'io.projectreactor.netty:reactor-netty:1.0.18'
 
     // Junit jupiter
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'

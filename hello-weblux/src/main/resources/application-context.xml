@@ -3,10 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="greetingHandler" class="com.hihusky.hellowebflux.GreetingHandler">
+    <bean name="greetingClient" class="com.hihusky.hellowebflux.GreetingClient"/>
 
-    </bean>
-    <bean id = "greetingClient" class = "com.hihusky.hellowebflux.GreetingClient">
-        <!-- collaborators and configuration for this bean go here -->
-    </bean>
 </beans>
