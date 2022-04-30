@@ -1,4 +1,4 @@
-package com.hihusky.springcookbook;
+package com.hihusky.hellowebflux;
 
 public class Greeting {
     private String message;

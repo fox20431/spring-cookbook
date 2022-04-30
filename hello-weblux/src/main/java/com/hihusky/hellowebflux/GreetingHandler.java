@@ -1,4 +1,4 @@
-package com.hihusky.springcookbook;
+package com.hihusky.hellowebflux;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
