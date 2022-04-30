@@ -1,2 +1,3 @@
 rootProject.name = 'spring-cookbook'
+include 'hello-weblux'
 
