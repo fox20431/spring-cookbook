@@ -2,16 +2,16 @@ plugins {
     id 'java'
 }
 
-group 'com.hihusky.springcookbook'
+group 'com.hihusky.helloflux'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
-String springVersion = '5.3.19'
-
 dependencies {
+    String springVersion = '5.3.19'
+
     // spring framework
     implementation "org.springframework:spring-core:$springVersion"
     implementation "org.springframework:spring-beans:$springVersion"
