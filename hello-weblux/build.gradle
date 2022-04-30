@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.hihusky.helloflux'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 repositories {
     mavenCentral()
@@ -12,11 +12,7 @@ repositories {
 dependencies {
     // spring framework
     String springVersion = '5.3.19'
-    implementation "org.springframework:spring-core:$springVersion"
-    implementation "org.springframework:spring-beans:$springVersion"
     implementation "org.springframework:spring-context:$springVersion"
-    implementation "org.springframework:spring-aop:$springVersion"
-    implementation "org.springframework:spring-web:$springVersion"
     implementation "org.springframework:spring-webflux:$springVersion"
 
     // jackson

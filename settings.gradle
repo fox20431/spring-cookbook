@@ -1,4 +1,6 @@
 rootProject.name = 'spring-cookbook'
 include 'hello-weblux'
-include 'hello-bean'
+include 'hello-bean-xml'
+include 'hello-bean-annotaion'
+include 'hello-bean-all'
 
