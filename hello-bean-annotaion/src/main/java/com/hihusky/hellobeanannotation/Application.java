@@ -8,7 +8,7 @@ public class Application {
         SecondGreeting secondGreeting;
         ThirdGreeting thirdGreeting;
         try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext()) {
-            context.scan("com.hihusky.helloannotation");
+            context.scan("com.hihusky.hellobeanannotation");
             context.refresh();
             greeting = context.getBean(Greeting.class);
             secondGreeting = context.getBean(SecondGreeting.class);
