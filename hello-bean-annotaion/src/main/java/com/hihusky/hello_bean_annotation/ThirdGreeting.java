@@ -1,14 +1,17 @@
-package com.hihusky.hellobeanannotation;
+package com.hihusky.hello_bean_annotation;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Greeting {
+public class ThirdGreeting {
     private String message;
 
-    public Greeting(@Value("Hello, Annotation!") String message) {
+    public ThirdGreeting(@Value("Hello again, Annotation!")String message) {
         this.message = message;
+    }
+
+    public ThirdGreeting() {
     }
 
     public String getMessage() {
@@ -21,7 +24,7 @@ public class Greeting {
 
     @Override
     public String toString() {
-        return "Greeting{" +
+        return "ThirdGreeting{" +
                 "message='" + message + '\'' +
                 '}';
     }

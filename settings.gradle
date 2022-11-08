@@ -4,3 +4,5 @@ include 'hello-weblux'
 include 'hello-bean-xml'
 include 'hello-bean-annotaion'
 include 'hello-bean-all'
+
+include 'web-app'
