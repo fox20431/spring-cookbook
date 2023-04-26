@@ -6,3 +6,5 @@ include 'hello-bean-annotaion'
 include 'hello-bean-all'
 
 include 'web-app'
+include 'aspect'
+

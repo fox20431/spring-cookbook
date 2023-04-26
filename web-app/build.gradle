@@ -11,9 +11,7 @@ repositories {
 }
 
 dependencies {
-	// spring framework
-	String springVersion = '5.3.23'
-	implementation "org.springframework:spring-webmvc:$springVersion"
+	implementation "org.springframework:spring-webmvc:5.3.23"
 
 	compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
 
